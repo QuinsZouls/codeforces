@@ -3,6 +3,8 @@ using namespace std;
 int n, days[101], dsc;
 int main(){
   int gym = 0, write = 0;
+  cin.tie(0);
+  ios_base::sync_with_stdio(0);
   cin>>n;
   days[100] = -1;
   for(int i = 0; i< n; i++){
