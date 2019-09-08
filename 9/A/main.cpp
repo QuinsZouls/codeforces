@@ -1,36 +1,26 @@
 #include <iostream>
 
-int main()
-{
+
+int main() {
   int a = 0, b = 0, max;
   std::cin >> a >> b;
-  if (a > b)
-  {
+
+  if (a > b) {
     max = a;
-  }
-  else
-  {
+  }else {
     max = b;
   }
-  if (a == b && a == 1)
-  {
+  if (a == b && a == 1) {
     std::cout << 1 << '/' << 1;
-  }
-  else
-  {
+  }else {
     int result = 7 - max;
-    if (result % 3 == 0)
-    {
+    if (result % 3 == 0) {
       std::cout << result / 3 << '/' << 2;
-    }
-    else if (result % 2 == 0)
-    {
+    }else if (result % 2 == 0) {
       std::cout << result / 2 << '/' << 3;
-    }
-    else
-    {
+    }else {
       std::cout << result << '/' << 6;
     }
   }
-  return 0;
+  return(0);
 }
